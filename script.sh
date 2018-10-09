@@ -7,6 +7,4 @@ alert= df -h | awk '{ if ($5 == "100%") print "(warning) no space available: " $
 alert= df -h | awk '{ if ($5 == "100%") print "(warning) no space available: " $1 " at " $5 ; else  print "storage available: " $1 " at " $5 ; }'
 
 echo $alert
-Alert
-Alert1() 
-
+Alert  
