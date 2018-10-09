@@ -10,4 +10,3 @@ echo $alert
 Alert  
 watever: #Alert
 Alert
-
