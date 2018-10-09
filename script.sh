@@ -9,3 +9,4 @@ alert= df -h | awk '{ if ($5 == "100%") print "(warning) no space available: " $
 echo $alert
 Alert
 Alert1() 
+
